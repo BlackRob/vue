@@ -8,7 +8,7 @@
         </div>
         <div>
           <label for="quiz" id="quiz-label">Choose a quiz</label><br>
-          <select id="quiz" name="user-quiz" required v-model="vQuiz">
+          <select id="quiz" name="user-quiz" required >
             <option value="" disabled selected>Make a selection</option>
             <option value="1">Fee</option>
             <option value="2">Fi</option>
@@ -45,7 +45,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 select {
-    color:#999;
+    color: black;
+}
+select:invalid {
+  color: gray;
 }
 .view {
   display: flex;

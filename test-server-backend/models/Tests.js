@@ -1,8 +1,8 @@
 var db=require('../dbconnection'); //reference of dbconnection.js
  
-var Task={
+var Test={
  
-getAllTasks:function(callback){
+getAllTest:function(callback){
  
 return db.query("Select * from task",callback);
  

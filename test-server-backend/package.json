@@ -1,27 +1,25 @@
 {
   "name": "test-server-backend",
-  "version": "0.0.0",
-  "engines": {
-    "node": "10.x"
-  },
-  "private": true,
+  "version": "1.0.0",
+  "description": "a separate repo to try out vue",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon src/app.js --exec \"npm run lint && node\"",
-    "lint": "./node_modules/.bin/eslint src/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
-    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "http-errors": "~1.6.2",
-    "jade": "~1.11.0",
-    "morgan": "^1.9.1",
     "mysql": "^2.16.0"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-google": "^0.11.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^8.0.0",

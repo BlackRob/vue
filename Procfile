@@ -1,0 +1,1 @@
+worker: node ./test-server-backend/app.js
